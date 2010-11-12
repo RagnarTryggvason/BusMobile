@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:textColor="#000000"
+    />
+<ImageView
+android:id="@+id/straeto"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:padding="10px"
+android:src="@drawable/straeto"
+android:layout_x="100px"
+android:layout_y="100px"
+>
+</ImageView>
+<ListView
+android:id="@+id/mainMenu"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:entries="@array/mainMenuItems"
+android:layout_x="0px"
+android:layout_y="147px"
+android:background="#FF8C00"
+android:textColor="#000000"
+>
+</ListView>
+<ListView android:id="@+id/ListView01"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" 
+	android:textSize="10sp"
+	android:textColor="#000000"
+	android:background="#FF8C00"
+	/>   
+</LinearLayout>
