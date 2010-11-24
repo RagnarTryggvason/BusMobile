@@ -19,6 +19,15 @@
 </intent-filter>
 </activity>
 
+<activity class=".FindBusStops" android:name="FindBusStops">
+<intent-filter>
+<action android:name="hopur2.BusMobile.FindBusStop.View" />
+<category android:name="android.intent.category.DEFAULT" />
+</intent-filter>
+</activity>
+
+
+
 <activity class=".RoutesMenu" android:name="RoutesMenu">
 <intent-filter>
 <action android:name="hopur2.RoutesMenu.View">
@@ -36,5 +45,9 @@
 </activity>
     </application>
     <uses-sdk android:minSdkVersion="3" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+	<uses-permission android:name="android.permission.INTERNET" />
 
 </manifest> 

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:background="#FFFFFF">
+  
+	
+ 	<TextView android:id="@+id/GpsLocation" 
+ 		android:layout_width="fill_parent"
+ 		android:layout_height="fill_parent"
+ 	/>
+ 	<TextView android:id="@+id/nearBusStops" 
+ 		android:layout_width="fill_parent"
+ 		android:layout_height="fill_parent"
+ 	/>
+ 	
+	<TableLayout
+		android:id="@+id/BusStopName"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent" >
+	<TableRow
+		android:id="@+id/trHead"
+		android:layout_width="350sp" />	
+	
+	</TableLayout>
+		
+		
+	<Button
+		android:id="@+id/retrieve_location_button"
+		android:text="Sjá biðstöðvar á korti"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+ 	
+</TableLayout>
