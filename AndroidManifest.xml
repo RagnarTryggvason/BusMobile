@@ -3,7 +3,9 @@
       package="hopur2.BusMobile"
       android:versionCode="1"
       android:versionName="1.0">
-    <application android:icon="@drawable/icon" android:label="@string/app_name" android:debuggable="true">
+    	<uses-permission android:name="android.permission.INTERNET" /> 
+  <application android:icon="@drawable/icon" android:label="@string/app_name" android:debuggable="true">
+    	<uses-library android:name="com.google.android.maps"/> 
         <activity android:name=".BusMobile"
                   android:label="@string/app_name">
             <intent-filter>
@@ -35,10 +37,16 @@
 </action>
 </intent-filter>
 </activity>
-
 <activity class=".MapMenu" android:name="MapMenu">
 <intent-filter>
 <action android:name="hopur2.MapMenu.View">
+<category android:name="android.intent.category.DEFAULT" />
+</action>
+</intent-filter>
+</activity>
+<activity class=".MapDisplay" android:name="MapDisplay">
+<intent-filter>
+<action android:name="hopur2.MapDisplay.View">
 <category android:name="android.intent.category.DEFAULT" />
 </action>
 </intent-filter>
@@ -48,6 +56,4 @@
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 	<uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
-	<uses-permission android:name="android.permission.INTERNET" />
-
 </manifest> 
