@@ -51,6 +51,13 @@
 </action>
 </intent-filter>
 </activity>
+<activity class=".Bidstod" android:name="Bidstod">
+<intent-filter>
+<action android:name="hopur2.Bidstod.View">
+<category android:name="android.intent.category.DEFAULT" />
+</action>
+</intent-filter>
+</activity>
     </application>
     <uses-sdk android:minSdkVersion="3" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
