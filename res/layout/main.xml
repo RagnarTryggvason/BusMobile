@@ -3,12 +3,12 @@
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="#003366"
+    android:background="#1A2A33"
 >
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
-    android:background="#3C5A6F"
+    android:background="#1A2A33"
     >
 <ImageView
 android:id="@+id/straeto"
