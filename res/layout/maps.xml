@@ -11,7 +11,8 @@ android:layout_height="fill_parent"
 android:layout_x="0px"
 android:enabled="true"
 android:clickable="true"
-android:apiKey="0BqC9_JQumEknYSxw0GKaNBY1EOrdtZGpaO9zdw" android:layout_y="105px">
+android:apiKey="0BqC9_JQumEknYSxw0GKaNBY1EOrdtZGpaO9zdw" 
+android:layout_y="105px">
 </com.google.android.maps.MapView>
 </LinearLayout>
 
