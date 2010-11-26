@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Document>
+  <name>Leið 36</name>
+  <description><![CDATA[]]></description>
+  <Style id="style23">
+    <IconStyle>
+      <Icon>
+        <href>http://notendur.hi.is/~thm4/Icontest.gif</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style1">
+    <IconStyle>
+      <Icon>
+        <href>http://notendur.hi.is/~thm4/Icontest.gif</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style13">
+    <IconStyle>
+      <Icon>
+        <href>http://notendur.hi.is/~thm4/Icontest.gif</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style8">
+    <IconStyle>
+      <Icon>
+        <href>http://notendur.hi.is/~thm4/Icontest.gif</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style14">
+    <IconStyle>
+      <Icon>
+        <href>http://notendur.hi.is/~thm4/Icontest.gif</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style11">
+    <IconStyle>
+      <Icon>
+        <href>http://notendur.hi.is/~thm4/Icontest.gif</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style10">
+    <IconStyle>
+      <Icon>
+        <href>http://notendur.hi.is/~thm4/Icontest.gif</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style25">
+    <IconStyle>
+      <Icon>
+        <href>http://notendur.hi.is/~thm4/Icontest.gif</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style7">
+    <IconStyle>
+      <Icon>
+        <href>http://notendur.hi.is/~thm4/Icontest.gif</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style22">
+    <IconStyle>
+      <Icon>
+        <href>http://notendur.hi.is/~thm4/Icontest.gif</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style9">
+    <IconStyle>
+      <Icon>
+        <href>http://notendur.hi.is/~thm4/Icontest.gif</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style24">
+    <IconStyle>
+      <Icon>
+        <href>http://notendur.hi.is/~thm4/Icontest.gif</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style18">
+    <IconStyle>
+      <Icon>
+        <href>http://notendur.hi.is/~thm4/Icontest.gif</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style6">
+    <IconStyle>
+      <Icon>
+        <href>http://notendur.hi.is/~thm4/Icontest.gif</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style3">
+    <IconStyle>
+      <Icon>
+        <href>http://notendur.hi.is/~thm4/Icontest.gif</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style2">
+    <IconStyle>
+      <Icon>
+        <href>http://notendur.hi.is/~thm4/Icontest.gif</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style15">
+    <IconStyle>
+      <Icon>
+        <href>http://notendur.hi.is/~thm4/Icontest.gif</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style4">
+    <IconStyle>
+      <Icon>
+        <href>http://notendur.hi.is/~thm4/Icontest.gif</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style21">
+    <IconStyle>
+      <Icon>
+        <href>http://notendur.hi.is/~thm4/Icontest.gif</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style5">
+    <IconStyle>
+      <Icon>
+        <href>http://notendur.hi.is/~thm4/Icontest.gif</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style17">
+    <IconStyle>
+      <Icon>
+        <href>http://notendur.hi.is/~thm4/Icontest.gif</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style20">
+    <IconStyle>
+      <Icon>
+        <href>http://notendur.hi.is/~thm4/Icontest.gif</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style19">
+    <IconStyle>
+      <Icon>
+        <href>http://notendur.hi.is/~thm4/Icontest.gif</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style16">
+    <IconStyle>
+      <Icon>
+        <href>http://notendur.hi.is/~thm4/Icontest.gif</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style26">
+    <IconStyle>
+      <Icon>
+        <href>http://notendur.hi.is/~thm4/Icontest.gif</href>
+      </Icon>
+    </IconStyle>
+  </Style>
+  <Style id="style12">
+    <LineStyle>
+      <color>FFFF0000</color>
+      <width>6</width>
+    </LineStyle>
+  </Style>
+  <Placemark>
+    <name>Hamraborg</name>
+    <styleUrl>#style23</styleUrl>
+    <Point>
+      <coordinates>-21.907799,64.111099,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Hlíðarvegur / Vogatunga</name>
+    <styleUrl>#style1</styleUrl>
+    <Point>
+      <coordinates>-21.900805,64.107727,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Hlíðarvegur / Grænatunga</name>
+    <styleUrl>#style13</styleUrl>
+    <Point>
+      <coordinates>-21.894722,64.108231,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Hlíðarvegur / Hrauntunga</name>
+    <styleUrl>#style8</styleUrl>
+    <Point>
+      <coordinates>-21.889990,64.108635,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Hlíðarhjalli / Brekkuhjalli</name>
+    <styleUrl>#style14</styleUrl>
+    <Point>
+      <coordinates>-21.878811,64.107529,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Hlíðarhjalli / Bakkahjalli</name>
+    <styleUrl>#style11</styleUrl>
+    <Point>
+      <coordinates>-21.873287,64.107353,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Skálaheiði</name>
+    <styleUrl>#style10</styleUrl>
+    <Point>
+      <coordinates>-21.873116,64.110992,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Digranesskóli</name>
+    <styleUrl>#style25</styleUrl>
+    <Point>
+      <coordinates>-21.872469,64.111351,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Hjallaskóli</name>
+    <styleUrl>#style7</styleUrl>
+    <Point>
+      <coordinates>-21.862030,64.110863,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Engihjalli</name>
+    <styleUrl>#style22</styleUrl>
+    <Point>
+      <coordinates>-21.859945,64.109749,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Nýbýlavegur / Skemmuvegur</name>
+    <styleUrl>#style9</styleUrl>
+    <Point>
+      <coordinates>-21.854979,64.110825,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Nýbýlavegur / Álfabrekka</name>
+    <styleUrl>#style24</styleUrl>
+    <Point>
+      <coordinates>-21.860617,64.113220,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Nýbýlavegur / Ástún</name>
+    <styleUrl>#style18</styleUrl>
+    <Point>
+      <coordinates>-21.867674,64.113747,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Nýbýlavegur / Lundarbrekka</name>
+    <styleUrl>#style6</styleUrl>
+    <Point>
+      <coordinates>-21.871933,64.113853,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Nýbýlavegur / Hjallabrekka</name>
+    <styleUrl>#style3</styleUrl>
+    <Point>
+      <coordinates>-21.879986,64.114082,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Nýbýlavegur / Birkigrund</name>
+    <styleUrl>#style2</styleUrl>
+    <Point>
+      <coordinates>-21.887407,64.114304,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Lundur</name>
+    <styleUrl>#style15</styleUrl>
+    <Point>
+      <coordinates>-21.894718,64.114845,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Kársnesbraut / Sæbólsbraut</name>
+    <styleUrl>#style4</styleUrl>
+    <Point>
+      <coordinates>-21.903013,64.114731,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Kársnesbraut / Huldubraut</name>
+    <styleUrl>#style21</styleUrl>
+    <Point>
+      <coordinates>-21.914522,64.114418,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Kársnesbraut / Litlavör</name>
+    <styleUrl>#style5</styleUrl>
+    <Point>
+      <coordinates>-21.922655,64.113846,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Kársnesbraut / Vesturvör</name>
+    <styleUrl>#style17</styleUrl>
+    <Point>
+      <coordinates>-21.929485,64.113762,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Kópavogsbraut / Borgarholtsbraut</name>
+    <styleUrl>#style20</styleUrl>
+    <Point>
+      <coordinates>-21.935244,64.111214,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Kópavogsbraut / Kópavör</name>
+    <styleUrl>#style19</styleUrl>
+    <Point>
+      <coordinates>-21.930410,64.109215,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Kársnesskóli</name>
+    <styleUrl>#style16</styleUrl>
+    <Point>
+      <coordinates>-21.923397,64.109116,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>Kópavogslaug</name>
+    <styleUrl>#style26</styleUrl>
+    <Point>
+      <coordinates>-21.917307,64.110634,0.000000</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>?</name>
+    <styleUrl>#style12</styleUrl>
+    <LineString>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -21.908262,64.111153,0.000000
+        -21.905409,64.110474,0.000000
+        -21.901890,64.107780,0.000000
+        -21.899860,64.107872,0.000000
+        -21.894770,64.108330,0.000000
+        -21.890020,64.108711,0.000000
+        -21.887720,64.108841,0.000000
+        -21.886351,64.108780,0.000000
+        -21.884930,64.108620,0.000000
+        -21.884180,64.108490,0.000000
+        -21.883820,64.108452,0.000000
+        -21.883261,64.108513,0.000000
+        -21.882990,64.108582,0.000000
+        -21.882500,64.108131,0.000000
+        -21.881880,64.108170,0.000000
+        -21.881460,64.108131,0.000000
+        -21.880421,64.107849,0.000000
+        -21.878740,64.107613,0.000000
+        -21.878210,64.107513,0.000000
+        -21.877710,64.107353,0.000000
+        -21.877110,64.107262,0.000000
+        -21.875660,64.107193,0.000000
+        -21.874901,64.107231,0.000000
+        -21.874350,64.107361,0.000000
+        -21.873940,64.107399,0.000000
+        -21.873280,64.107422,0.000000
+        -21.872271,64.107513,0.000000
+        -21.872021,64.107559,0.000000
+        -21.871620,64.107742,0.000000
+        -21.871450,64.107773,0.000000
+        -21.868780,64.108810,0.000000
+        -21.867990,64.109070,0.000000
+        -21.868790,64.109169,0.000000
+        -21.869390,64.109192,0.000000
+        -21.871410,64.109100,0.000000
+        -21.871880,64.109123,0.000000
+        -21.872480,64.109230,0.000000
+        -21.872850,64.109322,0.000000
+        -21.873240,64.109520,0.000000
+        -21.873280,64.109612,0.000000
+        -21.873240,64.110153,0.000000
+        -21.872890,64.111420,0.000000
+        -21.871410,64.111420,0.000000
+        -21.869940,64.111382,0.000000
+        -21.861780,64.111092,0.000000
+        -21.861950,64.110069,0.000000
+        -21.861740,64.109909,0.000000
+        -21.861610,64.109894,0.000000
+        -21.858990,64.109779,0.000000
+        -21.858030,64.109680,0.000000
+        -21.856291,64.109573,0.000000
+        -21.856190,64.110222,0.000000
+        -21.855400,64.110229,0.000000
+        -21.854601,64.110352,0.000000
+        -21.855181,64.110741,0.000000
+        -21.856030,64.111153,0.000000
+        -21.859890,64.112869,0.000000
+        -21.860680,64.113159,0.000000
+        -21.861210,64.113289,0.000000
+        -21.861710,64.113380,0.000000
+        -21.866301,64.113663,0.000000
+        -21.866560,64.113640,0.000000
+        -21.879980,64.114113,0.000000
+        -21.881760,64.114090,0.000000
+        -21.884741,64.114143,0.000000
+        -21.887430,64.114243,0.000000
+        -21.887850,64.114273,0.000000
+        -21.888590,64.114410,0.000000
+        -21.889151,64.114441,0.000000
+        -21.890450,64.114571,0.000000
+        -21.892460,64.114670,0.000000
+        -21.892481,64.114792,0.000000
+        -21.892771,64.114891,0.000000
+        -21.893021,64.114891,0.000000
+        -21.893190,64.114861,0.000000
+        -21.893330,64.114731,0.000000
+        -21.897400,64.114929,0.000000
+        -21.897520,64.115051,0.000000
+        -21.897711,64.115082,0.000000
+        -21.897881,64.115059,0.000000
+        -21.898020,64.115013,0.000000
+        -21.898020,64.114899,0.000000
+        -21.899700,64.114609,0.000000
+        -21.901350,64.114601,0.000000
+        -21.904600,64.114670,0.000000
+        -21.912081,64.114563,0.000000
+        -21.914520,64.114410,0.000000
+        -21.917080,64.114182,0.000000
+        -21.917660,64.114220,0.000000
+        -21.918690,64.114342,0.000000
+        -21.919180,64.114159,0.000000
+        -21.919970,64.114014,0.000000
+        -21.922640,64.113831,0.000000
+        -21.929480,64.113731,0.000000
+        -21.933220,64.113770,0.000000
+        -21.933741,64.113739,0.000000
+        -21.934031,64.113663,0.000000
+        -21.934280,64.113541,0.000000
+        -21.934580,64.113319,0.000000
+        -21.934660,64.113190,0.000000
+        -21.934811,64.111961,0.000000
+        -21.934910,64.111511,0.000000
+        -21.934910,64.111221,0.000000
+        -21.934811,64.110802,0.000000
+        -21.934580,64.110489,0.000000
+        -21.934231,64.110199,0.000000
+        -21.933661,64.109901,0.000000
+        -21.932810,64.109612,0.000000
+        -21.931770,64.109421,0.000000
+        -21.931170,64.109360,0.000000
+        -21.928810,64.109283,0.000000
+        -21.927691,64.109283,0.000000
+        -21.923470,64.109200,0.000000
+        -21.917500,64.109154,0.000000
+        -21.917360,64.111267,0.000000
+        -21.913347,64.111137,0.000000
+        -21.909571,64.111221,0.000000
+        -21.908304,64.111153,0.000000
+      </coordinates>
+    </LineString>
+  </Placemark>
+</Document>
+</kml>

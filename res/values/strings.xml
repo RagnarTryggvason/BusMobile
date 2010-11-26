@@ -2,4 +2,5 @@
 <resources>
     <string name="hello">Hello World, BusMobile!</string>
     <string name="app_name">BusMobile</string>
+<string name="tagline">hvert viltu komast...</string>
 </resources>

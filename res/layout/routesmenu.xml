@@ -3,22 +3,18 @@
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="#FFFFFF"
+    android:background="#06232F"
     >
 <ImageView
 android:id="@+id/straeto"
 android:layout_width="wrap_content"
 android:layout_height="wrap_content"
 android:padding="10px"
-android:src="@drawable/straeto"
+android:src="@drawable/icon"
 android:layout_x="100px"
 android:layout_y="100px"
  />
-<TextView  
-    android:layout_width="fill_parent" 
-    android:layout_height="wrap_content"
-    android:textColor="#000000"
-    />
+
 <ListView android:id="@+id/ListView01"
 	android:layout_width="fill_parent"
 	android:layout_height="fill_parent" 
