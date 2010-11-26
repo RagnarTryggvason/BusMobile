@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/myScrollview"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF">
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/myHView"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    >
+<TextView  
+	android:id="@+id/stoppstodnafn"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:textColor="#000000"
+    android:textSize="18sp"
+    android:text="Bold"
+    />
+<TextView  
+	android:id="@+id/leidirtextview"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:padding="5px"
+    android:textColor="#000000"
+    android:textSize="14sp"
+    android:text="Bold"
+    />
+<TableLayout
+android:id="@+id/leidirtable"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+android:textColor="#000000">
+</TableLayout>
+<TextView  
+	android:id="@+id/naestuvagnartextview"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:padding="5px"
+    android:textColor="#000000"
+    android:textSize="14sp"
+    android:text="Bold"
+    />
+<TableLayout
+android:id="@+id/naestuvagnartable"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:orientation="vertical"
+android:textColor="#000000">
+</TableLayout>
+</LinearLayout>
+</HorizontalScrollView>
+</ScrollView>
