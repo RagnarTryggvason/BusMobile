@@ -25,6 +25,12 @@
 				<category android:name="android.intent.category.DEFAULT" />
 			</intent-filter>
 		</activity>
+				<activity class=".GuideResults" android:name="GuideResults">
+			<intent-filter>
+				<action android:name="hopur2.BusMobile.WebGuideParser.View" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</activity>
 		<activity class=".RoutesMenu" android:name="RoutesMenu"
 			android:theme="@android:style/Theme.NoTitleBar">
 			<intent-filter>
@@ -33,7 +39,23 @@
 				</action>
 			</intent-filter>
 		</activity>
+				<activity class=".GuideUI" android:name="GuideUI">
+			<intent-filter>
+				<action android:name="hopur2.GuideUI.View">
+					<category android:name="android.intent.category.DEFAULT" />
+				</action>
+			</intent-filter>
+		</activity>
 
+		
+				<activity class=".LandmarkMenu" android:name="LandmarkMenu">
+			<intent-filter>
+				<action android:name="hopur2.LandmarkMenu.View">
+					<category android:name="android.intent.category.DEFAULT" />
+				</action>
+			</intent-filter>
+		</activity>
+		
 		<activity class=".ColoredRoutes" android:name="ColoredRoutes">
 			<intent-filter>
 				<action android:name="hopur2.ColoredRoutes.View">

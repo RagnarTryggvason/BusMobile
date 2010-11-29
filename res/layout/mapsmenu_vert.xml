@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/widget"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="@color/cream"
+>
+<LinearLayout
+android:id="@+id/widget35"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:orientation="vertical"
+>
+<TextView
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="Leiðakort stakra leiða"
+android:textSize = "26sp"
+android:textColor="@color/white"
+android:background="@color/blue"
+android:paddingTop = "5px"
+android:paddingBottom="10px"
+/>
+<LinearLayout
+android:id="@+id/red"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:gravity="fill_vertical"
+>
+<ImageButton
+android:id="@+id/kort1"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:src="@drawable/kort1"
+android:background = "@drawable/button_bg_selector"
+>
+</ImageButton>
+<ImageButton
+android:id="@+id/kort2"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:src="@drawable/button2"
+android:background = "@drawable/button_bg_selector"
+>
+</ImageButton>
+<ImageButton
+android:id="@+id/kort3"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:src="@drawable/button3"
+android:background = "@drawable/button_bg_selector"
+>
+</ImageButton>
+<ImageButton
+android:id="@+id/kort4"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:src="@drawable/button4"
+android:background = "@drawable/button_bg_selector"
+>
+</ImageButton>
+<ImageButton
+android:id="@+id/kort5"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:background = "@drawable/button_bg_selector"
+android:src="@drawable/button5"
+>
+</ImageButton>
+<ImageButton
+android:id="@+id/kort6"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:background = "@drawable/button_bg_selector"
+android:src="@drawable/button6"
+>
+</ImageButton>
+</LinearLayout>
+<LinearLayout
+android:id="@+id/green"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+>
+<ImageButton
+android:id="@+id/kort11"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:background = "@drawable/button_bg_selector"
+android:src="@drawable/button11"
+android:layout_x="10px"
+android:layout_y="190px"
+>
+</ImageButton>
+<ImageButton
+android:id="@+id/kort12"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:background = "@drawable/button_bg_selector"
+android:src="@drawable/button12"
+android:layout_x="85px"
+android:layout_y="190px"
+>
+</ImageButton>
+<ImageButton
+android:id="@+id/kort13"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:background = "@drawable/button_bg_selector"
+android:src="@drawable/button13"
+android:layout_x="160px"
+android:layout_y="190px"
+>
+</ImageButton>
+<ImageButton
+android:id="@+id/kort14"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:background = "@drawable/button_bg_selector"
+android:src="@drawable/button14"
+android:layout_x="235px"
+android:layout_y="190px"
+>
+</ImageButton>
+<ImageButton
+android:id="@+id/kort15"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:background = "@drawable/button_bg_selector"
+android:src="@drawable/button15"
+android:layout_x="45px"
+android:layout_y="270px"
+>
+</ImageButton>
+<ImageButton
+android:id="@+id/kort16"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:src="@drawable/button16"
+android:background = "@drawable/button_bg_selector"
+android:layout_x="122px"
+android:layout_y="270px"
+>
+</ImageButton>
+</LinearLayout>
+<LinearLayout
+android:id="@+id/green"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+>
+<ImageButton
+android:id="@+id/kort17"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:background = "@drawable/button_bg_selector"
+android:src="@drawable/button17"
+android:layout_x="200px"
+android:layout_y="270px"
+>
+</ImageButton>
+<ImageButton
+android:id="@+id/kort18"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:background = "@drawable/button_bg_selector"
+android:src="@drawable/button18"
+android:layout_x="85px"
+android:layout_y="350px"
+>
+</ImageButton>
+<ImageButton
+android:id="@+id/kort19"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:background = "@drawable/button_bg_selector"
+android:src="@drawable/button19"
+android:layout_x="160px"
+android:layout_y="350px"
+>
+</ImageButton>
+</LinearLayout>
+<LinearLayout
+android:id="@+id/blue"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+>
+<ImageButton
+android:id="@+id/kort21"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:background = "@drawable/button_bg_selector"
+android:src="@drawable/button21"
+android:layout_x="10px"
+android:layout_y="430px"
+>
+</ImageButton>
+<ImageButton
+android:id="@+id/kort22"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:background = "@drawable/button_bg_selector"
+android:src="@drawable/button22"
+android:layout_x="85px"
+android:layout_y="430px"
+>
+</ImageButton>
+<ImageButton
+android:id="@+id/kort23"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:background = "@drawable/button_bg_selector"
+android:src="@drawable/button23"
+android:layout_x="160px"
+android:layout_y="430px"
+>
+</ImageButton>
+<ImageButton
+android:id="@+id/kort24"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:background = "@drawable/button_bg_selector"
+android:src="@drawable/button24"
+android:layout_x="235px"
+android:layout_y="430px"
+>
+</ImageButton>
+<ImageButton
+android:id="@+id/kort26"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:background = "@drawable/button_bg_selector"
+android:src="@drawable/button26"
+android:layout_x="10px"
+android:layout_y="500px"
+>
+</ImageButton>
+<ImageButton
+android:id="@+id/kort27"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:background = "@drawable/button_bg_selector"
+android:src="@drawable/button27"
+android:layout_x="85px"
+android:layout_y="500px"
+>
+</ImageButton>
+</LinearLayout>
+<LinearLayout
+android:id="@+id/green2"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+>
+<ImageButton
+android:id="@+id/kort28"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:background = "@drawable/button_bg_selector"
+android:src="@drawable/button28"
+android:layout_x="160px"
+android:layout_y="500px"
+>
+</ImageButton>
+<ImageButton
+android:id="@+id/kort33"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:background = "@drawable/button_bg_selector"
+android:src="@drawable/button33"
+android:layout_x="235px"
+android:layout_y="500px"
+>
+</ImageButton>
+<ImageButton
+android:id="@+id/kort34"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:background = "@drawable/button_bg_selector"
+android:src="@drawable/button34"
+android:layout_x="235px"
+android:layout_y="500px"
+>
+</ImageButton>
+<ImageButton
+android:id="@+id/kort35"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:background = "@drawable/button_bg_selector"
+android:src="@drawable/button35"
+android:layout_x="45px"
+android:layout_y="570px"
+>
+</ImageButton>
+<ImageButton
+android:id="@+id/kort36"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:background = "@drawable/button_bg_selector"
+android:src="@drawable/button36"
+android:layout_x="235px"
+android:layout_y="500px"
+>
+</ImageButton>
+</LinearLayout>
+<LinearLayout
+android:id="@+id/blue3"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+>
+<ImageButton
+android:id="@+id/kort51"
+android:layout_width="wrap_content"
+android:background = "@drawable/button_bg_selector"
+android:layout_height="wrap_content"
+android:src="@drawable/button51"
+android:layout_x="122px"
+android:layout_y="570px"
+>
+</ImageButton>
+<ImageButton
+android:id="@+id/kort57"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:background = "@drawable/button_bg_selector"
+android:src="@drawable/button57"
+android:layout_x="200px"
+android:layout_y="570px"
+>
+</ImageButton>
+</LinearLayout>
+</LinearLayout>
+</ScrollView>

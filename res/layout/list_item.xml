@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/landmark"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:padding="10dp"
-    android:textColor="#FFFFFF"
-	android:background="#0B4057"
+    android:textColor="@color/black"
+	android:background="@color/cream"
 	 >
 </TextView>

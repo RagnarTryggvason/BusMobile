@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+android:id="@+id/widget43"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:orientation="vertical"
+android:background="@color/cream"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+<TextView
+android:id="@+id/widget48"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="Leiðavísir"
+android:textSize="18sp"
+android:background="@color/blue"
+android:textColor="@color/white"
+>
+</TextView>
+<LinearLayout
+android:id="@+id/widget49"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:gravity="center_vertical"
+>
+<TextView
+android:id="@+id/widget50"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Frá:"
+android:textStyle="bold"
+android:textColor="@color/black"
+android:padding ="5px"
+>
+</TextView>
+<AutoCompleteTextView
+android:id="@+id/fromfield"
+android:layout_width="225px"
+android:layout_height="50px"
+android:hint="Heimilisfang eða kennileiti"
+android:textSize="16sp"
+android:padding ="5px"
+
+>
+</AutoCompleteTextView>
+<Button
+android:id="@+id/landmarkbutton1"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Kenni\nleiti"
+android:padding ="10px"
+android:background = "@drawable/button_bg_selector"
+android:textColor = "@color/red"
+
+>
+</Button>
+</LinearLayout>
+<LinearLayout
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+>
+<TextView
+android:id="@+id/widget54"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginRight="5px"
+android:text="Til:"
+android:textStyle="bold"
+android:textColor="@color/black"
+android:padding ="5px"
+
+>
+</TextView>
+<AutoCompleteTextView
+android:id="@+id/tofield"
+android:layout_width="225px"
+android:layout_height="50px"
+android:hint="Heimilsfang eða kennileiti"
+android:textSize="16sp"
+android:padding ="5px"
+>
+</AutoCompleteTextView>
+<Button
+android:id="@+id/landmarkbutton2"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:background = "@drawable/button_bg_selector"
+android:textColor = "@color/red"
+android:text = "Kenni\nleiti"
+android:padding ="10px"
+>
+</Button>
+</LinearLayout>
+<LinearLayout
+android:id="@+id/widget57"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+>
+<TimePicker
+android:id="@+id/timepicker"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:paddingLeft="20px"
+android:paddingRight="20px"
+>
+</TimePicker>
+<RadioGroup
+android:id="@+id/timetypegroup"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+android:checkedButton="1"
+>
+<RadioButton
+android:id="@+id/brottfor"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Brottför"
+android:textColor="@color/black"
+android:checked="true"
+>
+</RadioButton>
+<RadioButton
+android:id="@+id/koma"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Koma"
+android:textColor="@color/black"
+>
+</RadioButton>
+</RadioGroup>
+</LinearLayout>
+<DatePicker
+android:id="@+id/datepicker"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:startYear="2010"
+android:endYear="2011"
+>
+</DatePicker>
+<LinearLayout
+android:id="@+id/widget49"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:gravity="right"
+>
+<Button
+android:id="@+id/getResults"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Finna leiðir"
+android:textStyle = "bold"
+android:textSize="16sp"
+android:padding = "10px"
+android:layout_marginRight="10px"
+android:background="@drawable/redbutton_bg_selector"
+android:textColor = "@color/white"
+>
+</Button>
+</LinearLayout>
+</LinearLayout>

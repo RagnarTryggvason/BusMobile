@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    >
+<ExpandableListView android:id="@+id/ListView01"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" 
+	android:textSize="10sp"
+	android:textColor="#000000"
+	android:background="#FF8C00"
+	/>   
+</LinearLayout>

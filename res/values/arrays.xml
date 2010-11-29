@@ -1,9 +1,325 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-<array name="mainMenuItems">
-<item>"Leiðarkerfi"</item>
-<item>"Leiðarkort"</item>
-<item>"Nálægustu biðstöðvar"</item>
-<item>"Næsti vagn"</item>
-</array>
+	<array name="mainMenuItems">
+		<item>"Leiðakerfi"</item>
+		<item>"Leiðakort"</item>
+		<item>"Leiðavísir"</item>
+		<item>"Nálægustu biðstöðvar"</item>
+		<item>"Næsti vagn"</item>
+	</array>
+	<array name="landmark_array">
+		<item>
+			"Bókasöfn"
+		</item>
+		<item>
+			"Félagsmiðstöðvar"
+		</item>
+		<item>
+			"Íþróttamannvirki"
+		</item>
+		<item>
+			"Kirkjur"
+		</item>
+		<item>
+			"Menning og söfn"
+		</item>
+		<item>
+			"Skólar"
+		</item>
+		<item>
+			"Spítalar og hjúkrunarheimili"
+		</item>
+		<item>
+			"Strætó"
+		</item>
+		<item>
+			"Sundlaugar"
+		</item>
+		<item>
+			"Verslunarkjarnar"
+		</item>
+		<item>
+			"Ýmislegt"
+		</item>
+	</array>
+	
+	<array name="bokasofn">
+	<item>"Ársafn"</item> 
+<item>"Bókasafn Bessastaðahrepps"</item> 
+<item>"Bókasafn Garðabæjar"</item> 
+<item>"Bókasafn Hafnarfjarðar"</item> 
+<item>"Bókasafn Kópavogs"</item> 
+<item>"Borgarbókasafn"</item> 
+<item>"Borgarbókasafnið Gerðubergi"</item> 
+<item>"Foldasafn"</item> 
+<item>"Kringlusafn í Borgarleikhúsinu"</item> 
+<item>"Lindasafn"</item> 
+<item>"Seljasafn"</item> 
+<item>"Sólheimasafn"</item> 
+<item>"Þjóðarbókhlaðan"</item> 
+</array> 
+<array name="felagsmidstodvar" >
+<item>"100og1 Félagsmiðstöð"</item> 
+<item>"Aldan - Öldutúnsskóla"</item> 
+<item>"Ársel"</item> 
+<item>"Ásinn - Áslandsskóla"</item> 
+<item>"Bústaðir"</item> 
+<item>"Ekkó - Kársnesskóla"</item> 
+<item>"Fönix - Salaskóla"</item> 
+<item>"Frostaskjól"</item> 
+<item>"Garðalundur"</item> 
+<item>"Gufunesbær Frístundarmiðstöð"</item> 
+<item>"Hitt Húsið"</item> 
+<item>"Hóllinn - Digranesskóla"</item> 
+<item>"Hraunið - Vífilsstaðaskóla"</item> 
+<item>"Igló - Snælandsskóla"</item> 
+<item>"Jemen - Lindaskóla"</item> 
+<item>"Kjarninn - Kópavogsskóla"</item> 
+<item>"Mekka - Hjallaskóla"</item> 
+<item>"Miðberg"</item> 
+<item>"Setrið - Setbergsskóla"</item> 
+<item>"Þeba - Smáraskóla"</item> 
+<item>"Þróttheimar"</item> 
+<item>"Tónabær - Upplýsinga- og félagsmiðstöð"</item> 
+<item>"Verið - Hvaleyraskóla"</item> 
+<item>"Vitinn - Lækjarskóli"</item> 
+</array> 
+<array name="ithrottamannvirki" >
+<item>"Egilshöll"</item> 
+<item>"Golfvöllur- Grafarholti"</item> 
+<item>"Hreyfing "</item> 
+<item>"Íþróttamiðstöðin Austurberg"</item> 
+<item>"Íþróttamiðstöðin í Grafarvogi"</item> 
+<item>"Íþróttamiðstöðin í Seljahverfi"</item> 
+<item>"Íþróttamiðstöðin Kléberg"</item> 
+<item>"ÍTR"</item> 
+<item>"Laugar"</item> 
+<item>"Laugardalshöllin"</item> 
+<item>"Laugardalsvöllurinn"</item> 
+<item>"Skautahöllin"</item> 
+<item>"Sporthúsið"</item> 
+</array> 
+<array name="kirkjur" >
+<item>"Árbæjarkirkja"</item> 
+<item>"Áskirkja"</item> 
+<item>"Ástjarnarkirkja"</item> 
+<item>"Bessastaðakirkja"</item> 
+<item>"Breiðholtskirkja"</item> 
+<item>"Bústaðakirkja"</item> 
+<item>"Digraneskirkja"</item> 
+<item>"Dómkirkjan"</item> 
+<item>"Fella- og hólakirkja"</item> 
+<item>"Garðakirkja"</item> 
+<item>"Grafarvogskirkja"</item> 
+<item>"Grensáskirkja"</item> 
+<item>"Hafnarfjarðarkirkja"</item> 
+<item>"Hallgrímskirkja"</item> 
+<item>"Háteigskirkja"</item> 
+<item>"Hjallakirkja"</item> 
+<item>"Kirkja Jésu Krists hinna Síðari daga heilögu"</item> 
+<item>"Kópavogskirkja"</item> 
+<item>"Lágafellskirkja"</item> 
+<item>"Landakotskirkja"</item> 
+<item>"Langholtskirkja"</item> 
+<item>"Laugarneskirkja"</item> 
+<item>"Neskirkja"</item> 
+<item>"Seljakirkja"</item> 
+<item>"Víðistaðakirkja"</item> 
+</array> 
+<array name="menning_og_sofn" >
+<item>"Árbæjarsafn"</item> 
+<item>"Ásmundarsalur - Listasafn ASÍ"</item> 
+<item>"Borgarleikhúsið"</item> 
+<item>"Borgarskjalasafn Reykjavíkur"</item> 
+<item>"Fjarskiptasafn Íslands"</item> 
+<item>"Gerðuberg"</item> 
+<item>"Hafnarfjarðarleikhúsið"</item> 
+<item>"Iðnó"</item> 
+<item>"Kjarvalsstaðir"</item> 
+<item>"Listasafn Íslands"</item> 
+<item>"Listasafn Reykjavíkur"</item> 
+<item>"Ljósmyndasafn Reykjavíkur"</item> 
+<item>"Náttúrugripasafn Íslands - Hlemmi"</item> 
+<item>"Nýlistasafnið"</item> 
+<item>"Safn Ásgríms Jónssonar"</item> 
+<item>"Safn Ásmundar Sveinssonar"</item> 
+<item>"Safn Einar Jónsson "</item> 
+<item>"Safn Sigurjóns Ólafssonar"</item> 
+<item>"Stofnun Árna Magnússonar"</item> 
+<item>"Þjóðleikhúsið"</item> 
+<item>"Þjóðmenningarhúsið"</item> 
+<item>"Þjóðminjasafnið"</item> 
+</array> 
+<array name="skolar" >
+<item>"Álftamýrarskóli"</item> 
+<item>"Álftanesskóli"</item> 
+<item>"Árbæjarskóli"</item> 
+<item>"Ártúnsskóli"</item> 
+<item>"Áslandsskóli"</item> 
+<item>"Austurbæjarskóli"</item> 
+<item>"Barnaskóli Hjallastefnunnar"</item> 
+<item>"Borgarholtsskóli"</item> 
+<item>"Borgaskóli"</item> 
+<item>"Breiðagerðisskóli"</item> 
+<item>"Breiðholtsskóli"</item> 
+<item>"Brúarskóli / Dalbraut"</item> 
+<item>"Digranesskóli"</item> 
+<item>"Engidalsskóli"</item> 
+<item>"Engjaskóli"</item> 
+<item>"Fellaskóli"</item> 
+<item>"Fjölbrautaskólinn í Breiðholti"</item> 
+<item>"Fjölbrautaskólinn í Garðabæ"</item> 
+<item>"Fjölbrautaskólinn við Ármúla"</item> 
+<item>"Fjöltækniskóli Íslands"</item> 
+<item>"Flataskóli"</item> 
+<item>"Flensborgarskóli"</item> 
+<item>"Foldaskóli"</item> 
+<item>"Fossvogsskóli"</item> 
+<item>"Garðaskóli"</item> 
+<item>"Grandaskóli"</item> 
+<item>"Hagaskóli"</item> 
+<item>"Hamraskóli"</item> 
+<item>"Háskóli Íslands"</item> 
+<item>"Háskólinn í Reykjavík"</item> 
+<item>"Háteigsskóli"</item> 
+<item>"Hjallaskóli"</item> 
+<item>"Hlíðaskóli"</item> 
+<item>"Hofsstaðaskóli"</item> 
+<item>"Hólabrekkuskóli"</item> 
+<item>"Hörðuvallaskóli"</item> 
+<item>"Húsaskóli"</item> 
+<item>"Hússtjórnarskóli Reykjavíkur"</item> 
+<item>"Hvaleyrarskóli"</item> 
+<item>"Hvassaleitisskóli"</item> 
+<item>"Iðnskólinn í Hafnarfirði"</item> 
+<item>"Iðnskólinn í Reykjavík"</item> 
+<item>"Ingunnarskóli"</item> 
+<item>"Kársnesskóli"</item> 
+<item>"Kennaraháskóli Íslands"</item> 
+<item>"Klébergsskóli"</item> 
+<item>"Kópavogsskóli"</item> 
+<item>"Korpuskóli"</item> 
+<item>"Kvennaskólinn í Reykjavík"</item> 
+<item>"Lækjarskóli"</item> 
+<item>"Lágafellsskóli"</item> 
+<item>"Landakotsskóli"</item> 
+<item>"Langholtsskóli"</item> 
+<item>"Laugalækjarskóli"</item> 
+<item>"Laugarnesskóli"</item> 
+<item>"Lindaskóli"</item> 
+<item>"Listaháskóli Íslands"</item> 
+<item>"Listdansskóli Íslands"</item> 
+<item>"Melaskóli"</item> 
+<item>"Menntaskólinn Hraðbraut"</item> 
+<item>"Menntaskólinn í Kópavogi"</item> 
+<item>"Menntaskólinn í Reykjavík (MR)"</item> 
+<item>"Menntaskólinn við Hamrahlíð"</item> 
+<item>"Menntaskólinn við Sund"</item> 
+<item>"Myndlistaskólinn í Reykjavík"</item> 
+<item>"Mýrarhúsaskóli - Valhúsaskóli"</item> 
+<item>"Ölduselsskóli"</item> 
+<item>"Öldutúnsskóli"</item> 
+<item>"Öskjuhlíðarskóli"</item> 
+<item>"Réttarholtsskóli"</item> 
+<item>"Rimaskóli"</item> 
+<item>"Safamýrarskóli"</item> 
+<item>"Salaskóli"</item> 
+<item>"Selásskóli"</item> 
+<item>"Seljaskóli"</item> 
+<item>"Setbergsskóli"</item> 
+<item>"Sjálandsskóli"</item> 
+<item>"Skóli Ísaks Jónssonar"</item> 
+<item>"Smáraskóli"</item> 
+<item>"Snælandsskóli"</item> 
+<item>"Suðurhlíðarskóli "</item> 
+<item>"Tjarnarskóli"</item> 
+<item>"Vatnsendaskóli"</item> 
+<item>"Verzlunarskóli Íslands"</item> 
+<item>"Vesturbæjarskóli"</item> 
+<item>"Víðistaðaskóli"</item> 
+<item>"Víkurskóli"</item> 
+<item>"Vogaskóli"</item> 
+<item>"Waldorfgrunnskólinn Sólstafir"</item> 
+</array> 
+<array name="spitalar_og_hjukrunarheimili" >
+<item>"Borgarspítalinn"</item> 
+<item>"Droplaugarstaðir"</item> 
+<item>"Eir"</item> 
+<item>"Grensásdeild Landspítalans"</item> 
+<item>"Grund"</item> 
+<item>"Hrafnista"</item> 
+<item>"Kleppsspítali"</item> 
+<item>"Landakotsspítali"</item> 
+<item>"Landspítalinn"</item> 
+<item>"Skjól"</item> 
+<item>"Skógarbær"</item> 
+<item>"Sólvangur"</item> 
+<item>"St. Jósefsspítali"</item> 
+<item>"Sunnuhlíð"</item> 
+</array> 
+<array name="straeto" >
+<item>Ártún"</item> 
+<item>"Ásgarður"</item> 
+<item>"Grensás"</item> 
+<item>"Háholt"</item> 
+<item>"Hamraborg"</item> 
+<item>"Hlemmur"</item> 
+<item>"Lækjartorg"</item> 
+<item>"Mjódd"</item> 
+</array> 
+<array name="sundlaugar" >
+<item>"Árbæjarlaug"</item> 
+<item>"Breiðholtslaug"</item> 
+<item>"Grafarvogslaug"</item> 
+<item>"Kjalarneslaug"</item> 
+<item>"Laugardalslaug"</item> 
+<item>"Sundhöllin"</item> 
+<item>"Vesturbæjarlaug"</item> 
+</array> 
+<array name="verslunarkjarnar" >
+<item>"Austurver"</item> 
+<item>"Byko - Kópavogi"</item> 
+<item>"Fjörður"</item> 
+<item>"Glæsibær"</item> 
+<item>"Góði hirðirinn"</item> 
+<item>"Grímsbær"</item> 
+<item>"Holtagarðar"</item> 
+<item>"Húsasmiðjan - Skútuvogi"</item> 
+<item>"Ikea"</item> 
+<item>"Kolaportið"</item> 
+<item>"Kringlan"</item> 
+<item>"Rúmfatalagerinn - Smáratorgi"</item> 
+<item>"Smáralind"</item> 
+<item>"Smáratorg"</item> 
+<item>"Spöngin"</item> 
+<item>"Suðurver"</item> 
+</array> 
+<array name="ymislegt" >
+<item>"365 Miðlar"</item> 
+<item>"Alþingi"</item> 
+<item>"Alþjóðahús"</item> 
+<item>"Félagsþjónustan í Reykjavík"</item> 
+<item>"Grasagarðurinn"</item> 
+<item>"Hæstiréttur"</item> 
+<item>"Höfði"</item> 
+<item>"Húsdýragarðurinn"</item> 
+<item>"Leikskólar Reykjavíkur"</item> 
+<item>"Loftleiðir"</item> 
+<item>"Lögreglan í Reykjavík"</item> 
+<item>"Miðgarður"</item> 
+<item>"Morgunblaðið"</item> 
+<item>"Nauthólsvík"</item> 
+<item>"Norræna húsið"</item> 
+<item>"Orkuveita Reykjavíkur"</item> 
+<item>"Perlan"</item> 
+<item>"Ráðhúsið"</item> 
+<item>"Reykjavíkurflugvöllur"</item> 
+<item>"Sjónvarpshúsið Efstaleiti"</item> 
+<item>"Stjórnarráðið"</item> 
+<item>"Tjaldstæði"</item> 
+<item>"Umferðamiðstöðin"</item> 
+<item>"Upplýsingamiðstöð ferðamála - Bankastræti"</item> 
+<item>"Vesturgarður"</item> 
+<item>"Vinnuskóli Reykjavíkur"</item> 
+</array> 
 </resources>

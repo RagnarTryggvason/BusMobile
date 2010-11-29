@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="@color/cream"
+xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+android:id="@+id/widget28"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:orientation="vertical"
+android:background="@color/cream"
+>
+<TextView
+android:id="@+id/heading2"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="Leitin skilaði engum niðurstöðum"
+android:textColor = "@color/white"
+android:background="@color/blue"
+android:padding = "10px"
+>
+</TextView>
+<TextView
+android:id="@+id/tableheading1"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:textColor = "@color/orange"
+android:textStyle="bold"
+android:background="@color/red"
+android:padding = "10px"
+>
+</TextView>
+<TableLayout
+android:id="@+id/table1"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+>
+</TableLayout>
+<TextView
+android:id="@+id/tableheading2"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:textColor = "@color/orange"
+android:textStyle="bold"
+android:background="@color/red"
+android:padding = "10px"
+>
+</TextView>
+<TableLayout
+android:id="@+id/table2"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+>
+</TableLayout>
+</LinearLayout>
+</ScrollView>
