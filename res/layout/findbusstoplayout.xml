@@ -1,35 +1,106 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/myScrollview"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/myHView"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
 <TableLayout
   xmlns:android="http://schemas.android.com/apk/res/android"
   android:layout_width="fill_parent"
-  android:layout_height="wrap_content"
+  android:layout_height="fill_parent"
   android:background="#FFFFFF">
-  
-	
- 	<TextView android:id="@+id/GpsLocation" 
- 		android:layout_width="fill_parent"
- 		android:layout_height="fill_parent"
- 	/>
- 	<TextView android:id="@+id/nearBusStops" 
- 		android:layout_width="fill_parent"
- 		android:layout_height="fill_parent"
- 	/>
- 	
-	<TableLayout
-		android:id="@+id/BusStopName"
-		android:layout_width="fill_parent"
-		android:layout_height="fill_parent" >
-	<TableRow
-		android:id="@+id/trHead"
-		android:layout_width="350sp" />	
-	
-	</TableLayout>
-		
-		
-	<Button
+  <TableRow>
+  <Button
 		android:id="@+id/retrieve_location_button"
-		android:text="Sjá biðstöðvar á korti"
+		android:text="Á korti"
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content" />
+	</TableRow>	
+
+	<TableLayout
+		android:id="@+id/title"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:background="#FFFFFF" >
+	
+	
+		
+	<TableRow
+		android:id="@+id/trHead"
+		>
+	<TextView
+		android:id="@+id/names"
+		android:text="Nálægar biðstöðvar"
+		android:textColor="#000000"
+		android:width="150sp"
+		android:paddingBottom="5sp"/>
+	<TextView
+		android:id="@+id/distance"
+		android:text="Fjarlægð"
+		android:textColor="#000000"
+		android:width="60sp"
+		android:layout_marginRight="10sp" />
+		
+	<TextView
+		android:id="@+id/buses"
+		android:text="Vagnar"
+		android:textColor="#000000"
+		android:width="45sp" />	
+		
+		
+	</TableRow>
+	
+	<TableRow
+		android:id="@+id/trDynamicData"
+		android:layout_width="wrap_content">
+		
+		
+		<TextView
+			android:id="@+id/dynamicNames"
+			android:width="150sp">
+			
+		</TextView>
+		<TextView
+			android:id="@+id/dynamicDistance"
+			android:width="60sp"
+			android:layout_marginRight="10sp">
+			
+		</TextView>
+		<TableLayout
+			android:id="@+id/tblInnerLayout"
+			android:layout_width="200sp">
+			
+		<TableRow 
+			android:id="@+id/rowBuses" >	
+		<TextView
+			android:id="@+id/dynamicBuses"
+			
+			>			
+		</TextView>
+		</TableRow>
+		
+		</TableLayout>
+		
+		
+		
+			
+	</TableRow>
+	
+	
+	</TableLayout>
+	
+	
+		
+		
+		
+	
  	
 </TableLayout>
+
+</HorizontalScrollView>
+</ScrollView>
