@@ -14,6 +14,16 @@
   android:layout_width="fill_parent"
   android:layout_height="fill_parent"
   android:background="#FFFFFF">
+  	<TextView
+		android:id="@+id/BusStopsTitle"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:padding = "10px"
+		android:text ="Biðstöðvar í nágrenninu"
+		android:textColor="#FFFFFF"
+		android:textSize = "17sp"
+		android:textStyle="bold"
+		android:background = "#385B6F" />
   <TableRow>
   <Button
 		android:id="@+id/retrieve_location_button"
@@ -37,18 +47,20 @@
 		android:id="@+id/names"
 		android:text="Nálægar biðstöðvar"
 		android:textColor="#000000"
-		android:width="150sp"
-		android:paddingBottom="5sp"/>
+		android:textSize="14sp"
+		android:width="150sp"/>
 	<TextView
 		android:id="@+id/distance"
 		android:text="Fjarlægð"
 		android:textColor="#000000"
+		android:textSize="14sp"
 		android:width="60sp"
 		android:layout_marginRight="10sp" />
 		
 	<TextView
 		android:id="@+id/buses"
 		android:text="Vagnar"
+		android:textSize="14sp"
 		android:textColor="#000000"
 		android:width="45sp" />	
 		
@@ -77,11 +89,7 @@
 			
 		<TableRow 
 			android:id="@+id/rowBuses" >	
-		<TextView
-			android:id="@+id/dynamicBuses"
-			
-			>			
-		</TextView>
+		
 		</TableRow>
 		
 		</TableLayout>
