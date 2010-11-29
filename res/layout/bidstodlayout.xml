@@ -3,24 +3,28 @@
 	android:id="@+id/myScrollview"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
+    android:fillViewport="true"
     android:background="#FFFFFF">
 <HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
 	android:id="@+id/myHView"
     android:layout_width="fill_parent"
+    android:fillViewport="true"
     android:layout_height="fill_parent">
+    
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_height="wrap_content"
     android:background="#FFFFFF"
     >
 <TextView  
 	android:id="@+id/stoppstodnafn"
     android:layout_width="fill_parent" 
     android:layout_height="wrap_content"
-    android:textColor="#000000"
-    android:textSize="18sp"
+    android:textColor="#FFFFFF"
+    android:textSize="20sp"
     android:text="Bold"
+    android:background="#385B6F"
     />
 <TextView  
 	android:id="@+id/naestuvagnartextview"
@@ -28,15 +32,18 @@
     android:layout_height="wrap_content"
     android:padding="5px"
     android:textColor="#000000"
-    android:textSize="14sp"
-    android:text="Bold"
+    android:textSize="18sp"
+    android:text="Næstu vagnar á þessari biðstöð:"
     />
+
 <TableLayout
 android:id="@+id/naestuvagnartable"
 android:layout_width="fill_parent"
-android:layout_height="fill_parent"
+android:layout_height="wrap_content"
 android:orientation="vertical"
 android:textColor="#000000">
+
+
 </TableLayout>
 </LinearLayout>
 </HorizontalScrollView>
