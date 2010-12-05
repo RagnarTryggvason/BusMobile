@@ -12,16 +12,16 @@
 			</intent-filter>
 		</activity>
 
-		<activity class=".LeidarTafla" android:name="LeidarTafla">
+		<activity class=".RouteDisplay" android:name="RouteDisplay">
 			<intent-filter>
-				<action android:name="hopur2.BusMobile.WIEW_LeidarTafla" />
+				<action android:name="hopur2.BusMobile.WIEW_RouteDisplay" />
 				<category android:name="android.intent.category.DEFAULT" />
 			</intent-filter>
 		</activity>
 
-		<activity class=".FindBusStops" android:name="FindBusStops">
+		<activity class=".NearbyStopMenu" android:name="NearbyStopMenu">
 			<intent-filter>
-				<action android:name="hopur2.BusMobile.FindBusStop.View" />
+				<action android:name="hopur2.BusMobile.NearbyStopMenu.View" />
 				<category android:name="android.intent.category.DEFAULT" />
 			</intent-filter>
 		</activity>
@@ -77,9 +77,9 @@
 				</action>
 			</intent-filter>
 		</activity>
-		<activity class=".Bidstod" android:name="Bidstod">
+		<activity class=".BusStopDisplay" android:name="BusStopDisplay">
 			<intent-filter>
-				<action android:name="hopur2.Bidstod.View">
+				<action android:name="hopur2.BusStopDisplay.View">
 					<category android:name="android.intent.category.DEFAULT" />
 				</action>
 			</intent-filter>

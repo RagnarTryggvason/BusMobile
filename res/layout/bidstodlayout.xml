@@ -3,40 +3,73 @@
 	android:id="@+id/myScrollview"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
+    android:fillViewport="true"
     android:background="#FFFFFF">
 <HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
 	android:id="@+id/myHView"
     android:layout_width="fill_parent"
+    android:fillViewport="true"
     android:layout_height="fill_parent">
+    
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_height="wrap_content"
     android:background="#FFFFFF"
     >
 <TextView  
 	android:id="@+id/stoppstodnafn"
     android:layout_width="fill_parent" 
     android:layout_height="wrap_content"
-    android:textColor="#000000"
-    android:textSize="18sp"
+    android:textColor="@color/white"
+    android:textSize="20sp"
     android:text="Bold"
+    android:background="@color/blue"
     />
 <TextView  
 	android:id="@+id/naestuvagnartextview"
     android:layout_width="fill_parent" 
     android:layout_height="wrap_content"
     android:padding="5px"
-    android:textColor="#000000"
-    android:textSize="14sp"
-    android:text="Bold"
+    android:textColor="@color/white"
+    android:textSize="16sp"
+    android:background = "@color/blue"
+    android:text="Næstu vagnar á þessari biðstöð:"
     />
+
 <TableLayout
 android:id="@+id/naestuvagnartable"
 android:layout_width="fill_parent"
-android:layout_height="fill_parent"
+android:layout_height="wrap_content"
 android:orientation="vertical"
-android:textColor="#000000">
+android:background = "@color/cream">
+
+<TableRow android:id="@+id/titlerow"
+android:layout_width = "fill_parent"
+android:layout_height = "wrap_content"
+android:background = "@color/red"
+>
+<TextView
+android:id = "@+id/leid"
+android:text="Leið"
+android:textColor="@color/orange"
+android:textStyle = "bold"
+android:padding = "15px"
+/>
+<TextView
+android:id = "@+id/dest"
+android:textColor="@color/orange"
+android:textStyle = "bold"
+android:padding = "15px"
+/>
+<TextView
+android:id = "@+id/min"
+android:textColor="@color/orange"
+android:textStyle = "bold"
+android:padding = "15px"
+/>
+</TableRow>
+
 </TableLayout>
 </LinearLayout>
 </HorizontalScrollView>

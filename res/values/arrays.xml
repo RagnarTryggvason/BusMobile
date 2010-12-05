@@ -4,8 +4,7 @@
 		<item>"Leiðakerfi"</item>
 		<item>"Leiðakort"</item>
 		<item>"Leiðavísir"</item>
-		<item>"Nálægustu biðstöðvar"</item>
-		<item>"Næsti vagn"</item>
+		<item>"Nálægar biðstöðvar</item>
 	</array>
 	<array name="landmark_array">
 		<item>
@@ -41,8 +40,7 @@
 		<item>
 			"Ýmislegt"
 		</item>
-	</array>
-	
+</array>
 	<array name="bokasofn">
 	<item>"Ársafn"</item> 
 <item>"Bókasafn Bessastaðahrepps"</item> 
